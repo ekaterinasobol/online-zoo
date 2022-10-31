@@ -115,6 +115,9 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 79.87px;
     text-align: center;
 }
+.button1:hover {
+    cursor: pointer;
+}
 
 .button1 {
     position: absolute;
@@ -231,11 +234,23 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: space-between;
 }
 
+.scale:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
 .photo__text{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+}
 
+.photo__text:hover {
+    cursor: pointer;
+    transition: 1s;
+    background: gray;
+    transform: scale(1.2);
 }
 
 .animal__button {
@@ -283,11 +298,22 @@ h1,h2,h3,h4,h5,h6 {
     border: none;
 }
 
+.button2:hover {
+    cursor: pointer;
+
+}
+
 .ellipse__left {
     position: absolute;
     margin-left: 138px;
     margin-top: -487px;
 }
+
+.ellipse__left:hover,
+.ellipse__right:hover {
+    cursor: pointer;
+}
+
 
 .ellipse__small {
     position: relative;
@@ -453,6 +479,10 @@ h4{
     border: none;
 }
 
+.button3:hover {
+    cursor: pointer;
+}
+
 .container5 {
     position: absolute;
     box-sizing: border-box;
@@ -546,6 +576,10 @@ progress{
     margin-left: 280px;
     }
 
+progress:hover {
+    cursor: pointer;
+}
+
 progress::-webkit-progress-bar {background-color: #F5F7F6; width: 100%;border-radius: 5px; }
 progress {background-color: #F5F7F6;}
 
@@ -563,6 +597,10 @@ progress {color: #FE9013;}
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 5px;
     border: none;
+}
+
+.button4:hover {
+    cursor: pointer;
 }
 
 .button4__text {
@@ -613,6 +651,10 @@ progress {color: #FE9013;}
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 5px;
     border: none;
+}
+
+.button5:hover {
+    cursor: pointer;
 }
 
 .social {
