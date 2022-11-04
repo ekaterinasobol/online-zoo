@@ -128,7 +128,22 @@ h1,h2,h3,h4,h5,h6 {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
     border: none;
+}
 
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover {
+    background: #E47209;
+}
+
+.button1:active,
+.button2:active,
+.button3:active,
+.button4:active,
+.button5:active {
+    background: #4B9200;;
 }
 
 .button1__text {
@@ -314,27 +329,29 @@ h1,h2,h3,h4,h5,h6 {
     cursor: pointer;
 }
 
-
 .ellipse__small {
     position: relative;
+    width: 62px;
+    height: 62px;
+    border-radius: 62px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 }
 
-.arrow__left {
+.ellipse__small:active {
+    background: #4B9200;
+}
+
+.arrow__left,
+.arrow__right {
     position: absolute;
-    margin-left: -40px;
-    margin-top: 23px;
+    margin-left: 22px;
+    margin-top: -38px;
 }
 
 .ellipse__right {
     position: absolute;
     margin-left: 1398px;
     margin-top: -487px;
-}
-
-.arrow__right {
-    position: absolute;
-    margin-left: -40px;
-    margin-top: 23px;
 }
 
 .section4 {
@@ -669,6 +686,11 @@ progress {color: #FE9013;}
     position: absolute;
 }
 
+.social__ellipse:active {
+    background: #4B9200;
+    border-radius: 26px;
+}
+
 .social__pic1 {
     position: relative;
     margin-left: 9px;
@@ -702,6 +724,10 @@ progress {color: #FE9013;}
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
+}
+
+.social__style:active {
+    color: #4B9200;
 }
 
 .social__block {
@@ -744,6 +770,15 @@ progress {color: #FE9013;}
     color: #BDBDBD;
 }
 
+.subscribe__input:invalid {
+    border: 1px solid #D31414;
+  }
+
+.subscribe__input:focus-visible {
+    border: none;
+    outline: 2px solid #4B9200;
+  }
+
 ::placeholder {
     padding-left:7px;
     font-family: 'Roboto', sans-serif;
@@ -762,14 +797,28 @@ progress {color: #FE9013;}
     width: 129px;
     height: 42px;
     background: #F1F3F2;
-    border: 1px solid #4B9200;
+    border: 1px solid #000000;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #4B9200;
+    color: #000000;
+}
+
+.subscribe__button:invalid {
+    color: #D31414;
+    border: 1px solid #D31414;
+}
+
+.subscribe__button:hover {
+    cursor: pointer;
+}
+
+.subscribe__button:active {
+    color:#4B9200;
+    border: 1px solid #4B9200;;
 }
 
 .footer__nav {
